@@ -6,11 +6,11 @@
  * Date: 03.05.2022
  */
 
-namespace Inkoder\FB2Tool;
+namespace Inkoder\FB2;
 
 use Inkoder\FB2\Helper\XmlHelper;
 
-class FB2ToolClass
+class FB2Tool
 {
     /**
      * @var \SimpleXMLElement|null
