@@ -6,7 +6,7 @@
  * Date: 03.05.2022
  */
 
-namespace inkoder\FB2\Helper;
+namespace Inkoder\FB2\Helper;
 
 class XmlHelper
 {

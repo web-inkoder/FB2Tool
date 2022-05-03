@@ -1,6 +1,6 @@
 <?php
 
-namespace inkoder\FB2\Model;
+namespace Inkoder\FB2\Model;
 
 /**
  * Interface IModel
