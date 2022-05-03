@@ -10,7 +10,7 @@ namespace Inkoder\FB2Tool;
 
 use Inkoder\FB2\Helper\XmlHelper;
 
-class FB2ToolClass
+class FB2Tool
 {
     /**
      * @var \SimpleXMLElement|null
