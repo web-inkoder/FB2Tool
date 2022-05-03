@@ -1,0 +1,21 @@
+{
+    "name": "web-inkoder/fb2tool",
+    "description": "Simple FB2 CRUD library",
+    "type": "library",
+    "license": "GPL v3.0",
+    "autoload": {
+        "psr-4": {
+            "WebInkoder\\Fb2tool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inkoder",
+            "email": "web.inkoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
