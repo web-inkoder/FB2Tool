@@ -12,16 +12,10 @@ use Inkoder\Fb2tool\Helpers\XmlHelper;
 
 class FB2Tool
 {
-    /**
-     * @var \SimpleXMLElement|null
-     * @todo inkoder не забыть поменять область видимости
-     */
-    public $xml;
 
     public function __construct($file = '')
     {
-        XmlHelper::load($file);
-        $this->xml = XmlHelper::getXml();
+        return XmlHelper::load($file);
     }
 
 
