@@ -17,6 +17,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.0",
-        "ext-simplexml": "*"
+        "ext-simplexml": "*",
+        "phpcollection/phpcollection": "^0.6.0"
     }
 }
