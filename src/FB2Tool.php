@@ -6,9 +6,9 @@
  * Date: 03.05.2022
  */
 
-namespace Inkoder\FB2;
+namespace Inkoder\Fb2tool;
 
-use Inkoder\FB2\Helper\XmlHelper;
+use Inkoder\Fb2tool\Helpers\XmlHelper;
 
 class FB2Tool
 {

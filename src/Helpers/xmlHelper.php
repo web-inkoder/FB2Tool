@@ -6,38 +6,18 @@
  * Date: 03.05.2022
  */
 
-namespace Inkoder\FB2\Helper;
+namespace Inkoder\Fb2tool\Helpers;
 
 class XmlHelper
 {
-    /**
-     * @var \SimpleXMLElement|null
-     */
-   var $xml = null;
 
     static  public function load($file)
     {
         try {
-            self::setXml(simplexml_load_file($file));
-            return (self::getXml());
+            return simplexml_load_file($file);
         } catch (\Exception $e) {
-            return (null);
+            return null;
         }
     }
 
-    /**
-     * @return \SimpleXMLElement|null
-     */
-    static public function getXml(): ?\SimpleXMLElement
-    {
-        return self::$xml;
-    }
-
-    /**
-     * @param \SimpleXMLElement $xml
-     */
-    public function setXml(\SimpleXMLElement $xml)
-    {
-        self::$xml = $xml;
-    }
 }

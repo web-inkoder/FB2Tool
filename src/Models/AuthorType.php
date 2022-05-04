@@ -6,7 +6,7 @@
  * Date: 02.05.2022
  */
 
-namespace Inkoder\FB2\Model;
+namespace Inkoder\Fb2tool\Models;
 
 /**
  * Class AuthorType
