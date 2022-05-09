@@ -33,6 +33,7 @@ class BookInfo implements IModel
     private $coverPage = '';
     private $lang = '';
     private $srcLang = '';
+    private $id = '';
 
     /**
      * @var AuthorType
