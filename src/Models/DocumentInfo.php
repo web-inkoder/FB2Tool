@@ -8,6 +8,9 @@
 
 namespace Inkoder\Fb2tool\Models;
 
+/**
+ * Information about this particular (xml) document
+ */
 class DocumentInfo implements IModel
 {
 
@@ -21,7 +24,7 @@ class DocumentInfo implements IModel
     private $humanDate = '';
     private $srcUrl = '';
     private $srcOCR = '';
-    private $id = 0;
+    private $id = '';
     private $version = 0.0;
     private $history = '';
 
