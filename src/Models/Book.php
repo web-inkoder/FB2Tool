@@ -15,9 +15,22 @@ class Book implements IModel
      */
     private $bookInfo;
 
+    /**
+     * @var DocumentInfo
+     */
     private $documentInfo;
+
+    /**
+     * @var PublishInfo
+     */
     private $publishInfo;
+
+    /**
+     * @var CustomInfo
+     */
     private $customInfo;
+
     private $body;
+
 
 }
