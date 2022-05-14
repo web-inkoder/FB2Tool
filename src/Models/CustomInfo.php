@@ -8,6 +8,9 @@
 
 namespace Inkoder\Fb2tool\Models;
 
+/**
+ * Additional document info
+ */
 class CustomInfo implements IModel
 {
     private $infoType;
