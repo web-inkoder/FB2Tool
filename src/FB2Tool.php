@@ -17,6 +17,10 @@ class FB2Tool
      * @var
      */
     private $bookXml;
+
+    /**
+     * @var Book
+     */
     private $book;
 
     public function __construct($file = '')
