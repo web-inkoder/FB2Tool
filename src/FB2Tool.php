@@ -50,6 +50,9 @@ class FB2Tool
         }
     }
 
+    /**
+     * @return void
+     */
     public function parse() {
 
         $this->book = new Book();
