@@ -29,11 +29,12 @@ class BookInfo implements IModel
     public $annotation = '';
     public $keyword = [];
     public $humanDate = '';
+    public $lang = '';
+    public $srcLang = '';
+    public $id = '';
+
     private $documentDate = '';
     private $coverPage = '';
-    private $lang = '';
-    private $srcLang = '';
-    private $id = '';
 
     /**
      * @var AuthorType
